@@ -1,3 +1,7 @@
+Connect system/1234  --Connect with system which is provided by college where Query
+    CREATE USER Nitin_kumar_Shah_23049298 IDENTIFIED BY 1234; -- create a New User 
+GRANT CONNECT, RESOURCE to Nitin_Kumar_Shah-23049298;   --Giving privilege to user for access. 
+
 -- Creating Student-3 table
 CREATE TABLE Student_3 (
     student_id NUMBER PRIMARY KEY,
